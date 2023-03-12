@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 50px;
+	overflow-x: hidden;
+	background-color: whitesmoke;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.logo img {
+	width: 150px;
+}
+
+.navbar {
+	font-size: 18px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	text-decoration: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+.text {
+	margin-top: 100px;
+	margin-left: 50px;
+	color: steelblue;
+	font-weight: bolder;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-image {
+	padding-top: 60px;
+}
+
+.content {
+	height: 400px;
+}
+
+.content img {
+	width: 100px;
+	float: left;
+}
+
+.isi h1 {
+	color: dodgerblue;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.isi p {
+	margin-bottom: 50px;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.isi h1,
+p {
+	padding-left: 110px;
+	font-size: large;
+	margin-top: 10px;
+}
